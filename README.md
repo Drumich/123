@@ -2,6 +2,10 @@
 
 
 ```
+mkdir $(date +%Y%m%d)
+```   
+
+```
 git config --global user.name "name"    
 git config --global user.email "email@email.com"    
 git clone https://github.com/user/repository      
